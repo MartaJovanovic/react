@@ -11,6 +11,7 @@
   min-height: 40px;
   padding-left:25px;
   font-size: large;
+  width: 100%;
 }
 
 .cart-items {
@@ -95,4 +96,13 @@ a {
 
 .ikonica{
   margin-left: 30px;
+}
+
+.bottomBar{
+  background-color:rgb(211,
+  211, 211);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

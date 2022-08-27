@@ -10,14 +10,14 @@ const Korpa = ({ proizvodi }) => {
           return z;
     }
   return (
-    <div className="cart-container">
-      <h3>This is your cart.</h3>
+    <>
+    <div className="proizvodi">
       {proizvodi.map((prod) => (
         <Proizv pr={prod} key={prod.id} />
       ))}
-
-      <p>Ukuona cena : {zbir()}</p>
     </div>
+    <p>  Ukupna cena : {zbir()}</p>
+    </>
   );
 };
 

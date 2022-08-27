@@ -4,6 +4,7 @@ import Proizvodi from './components/Proizvodi';
 import Korpa from './components/Korpa';
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BottomBar from './components/BottomBar';
 
 
 function App() {
@@ -138,7 +139,10 @@ function App() {
 
           <Route path="/korpa" element={<Korpa proizvodi={korpaProizvodi} />} />
       </Routes>
+      
+      <BottomBar></BottomBar>
     </BrowserRouter>
+    
   );
 }
 
