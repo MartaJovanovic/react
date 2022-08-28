@@ -21,6 +21,7 @@ function App() {
       kolicina: 0,
       vrsta: "pice",
       cena: 700,
+      slika: "capricciosa.jpg",
     },
     {
       id: 2,
@@ -29,7 +30,8 @@ function App() {
         "Pepperoni, sir",
       kolicina: 0,
       vrsta: "pice",
-      cena: 700,
+      cena: 750,
+      slika: "pepperoni.jpg",
     },
     {
       id: 3,
@@ -38,7 +40,8 @@ function App() {
         "Sir, gorgonzola, parmezan, dimljeni sir",
       kolicina: 0,
       vrsta: "pice",
-      cena: 700,
+      cena: 720,
+      slika: "4sira.jpg",
     },
     {
       id: 4,
@@ -47,7 +50,8 @@ function App() {
         "Sir, šunka, pančeta, kisela pavlaka, šampinjoni",
       kolicina: 0,
       vrsta: "pice",
-      cena: 700,
+      cena: 600,
+      slika: "calzone.jpg",
     },
     {
       id: 5,
@@ -56,7 +60,8 @@ function App() {
         "Juneće meso, topljeni sir, kečap, burger sos, iceberg salata, paradajz, luk, pomfrit",
       kolicina: 0,
       vrsta: "burgeri",
-      cena: 700,
+      cena: 780,
+      slika: "bigburger.jpg",
     },
     {
       id: 6,
@@ -65,7 +70,8 @@ function App() {
         "Juneće meso, topljeni sir, big burger sos, tartar sos, iceberg salata, paradajz, pohovani kačkavalj, pomfrit",
       kolicina: 0,
       vrsta: "burgeri",
-      cena: 700,
+      cena: 780,
+      slika: "cheeseburger.jpg",
     },
     {
       id: 7,
@@ -74,7 +80,8 @@ function App() {
         "Juneće meso, gorgonzola sos, paradajz, iceberg salata, rukola, onion rings, pomfrit",
       kolicina: 0,
       vrsta: "burgeri",
-      cena: 700,
+      cena: 800,
+      slika: "gorgonzola.jpg",
     },
 
 

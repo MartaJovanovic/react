@@ -2,17 +2,19 @@ import React from 'react'
 
 
 
-function Proizv({pr, dodaj, oduzmi}) {
+function Proizv({pr, dodaj, oduzmi, kor}) {
+
   return (
     <div className='kartica'>  
-      <img classname = "slika" src = "https:/picsum.photos/200" alt= "SLika"></img>
+      <img className = "slika" src={require ("C:/Users/jovan/Desktop/fon/Iteh/React/picerija/src/slike/" + pr.slika)}></img>
       <div className="kartica-body">
         <h3 className="kartica-naslov">{pr.naziv}</h3>
         <p className="kartica-sastojci">{pr.sastojci}</p>
         <p className="kartica-sastojci">Cena: {pr.cena}</p>
-        <p className="kartica-sastojci">Kolicina: {pr.kolicina}</p>
       </div>
-      <button
+      {kor === 0 ? ( <>
+        <p className="kartica-sastojci">Kolicina: {pr.kolicina}</p>
+       <button
             className="btn"
             onClick={() => dodaj(pr.id)}
           > + </button>
@@ -20,6 +22,8 @@ function Proizv({pr, dodaj, oduzmi}) {
             className="btn"
             onClick={() => oduzmi(pr.id)}
           > - </button>
+          </>
+          ): (<p className="kartica-sastojci">Kolicina: {pr.kolicina}</p>)}
       </div>
   )
 }

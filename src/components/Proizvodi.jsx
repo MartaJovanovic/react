@@ -6,7 +6,7 @@ const Proizvodi = ({przi, dodaj, oduzmi}) => {
     <div className='proizvodi'>
 
 {przi.map((prod) => (
-        <Proizv pr = {prod} key={prod.id} dodaj={dodaj} oduzmi = {oduzmi}/>
+        <Proizv pr = {prod} key={prod.id} dodaj={dodaj} oduzmi = {oduzmi} kor={0}/>
       ))}
     </div>
   )
