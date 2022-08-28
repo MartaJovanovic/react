@@ -9,7 +9,7 @@ import BottomBar from './components/BottomBar';
 
 function App() {
 
-  const [korpaBroj, postaviKorpaBroj] = useState(0);
+ 
   const [korpaProizvodi, postaviKorpaProizvodi] = useState([]);
 
   const [proizvodi] = useState([
@@ -101,7 +101,6 @@ function App() {
 
   function dodaj(id) {
 
-    postaviKorpaBroj(korpaBroj + 1);
 
     proizvodi.forEach((prod) => {
       if (prod.id === id) {
@@ -115,7 +114,7 @@ function App() {
   }
     
     function oduzmi(id) {
-      if (korpaBroj > 0 ) postaviKorpaBroj(korpaBroj - 1);
+
       
       proizvodi.forEach((prod) => {
         if (prod.id === id) {
