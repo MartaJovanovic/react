@@ -16,7 +16,7 @@ const Korpa = ({ proizvodi }) => {
         <Proizv pr={prod} key={prod.id} kor={1} />
       ))}
     </div>
-    <p>  Ukupna cena : {zbir()}</p>
+    <h4>  Ukupna cena : {zbir()}</h4>
     </>
   );
 };

@@ -128,7 +128,7 @@ function App() {
       });
     }
 
-
+    // const stil = { background-color: "rgb(153, 76, 0)"};
   
 
   return (
@@ -149,7 +149,6 @@ function App() {
       
       <BottomBar></BottomBar>
     </BrowserRouter>
-    
   );
 }
 
